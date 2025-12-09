@@ -1,0 +1,29 @@
+# виртуальное окружение
+venv/
+.env
+
+# логи и временные файлы
+*.log
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+
+# результаты работы скрипта
+result.txt
+bad_urls.txt
+urls_backup*.csv
+
+# ключи и чувствительные данные
+json_keys/
+*.json
+
+# IDE/редакторы
+.vscode/
+.idea/
+*.iml
+
+# ОС-специфичные
+.DS_Store
+Thumbs.db
